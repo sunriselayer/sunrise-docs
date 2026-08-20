@@ -308,3 +308,14 @@ for (const rel of files) {
 }
 
 console.log(`converted ${files.length} pages`);
+
+const sidebarData = groups.map((group) => ({
+	label: group.label,
+	items: sidebarItemsFromNodes(group.items),
+}));
+
+const sidebarSource = `// Sidebar matching the published GitBook SUMMARY.md.\nexport const sidebar = ${JSON.stringify(sidebarData, null, '\t')};\n`;
+
+fs.mkdirSync(path.dirname(sidebarOutFile), { recursive: true });
+fs.writeFileSync(sidebarOutFile, sidebarSource);
+console.log(`wrote ${sidebarOutFile}`);

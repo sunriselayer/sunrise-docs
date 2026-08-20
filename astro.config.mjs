@@ -12,6 +12,9 @@ import { sidebar } from './src/sidebar.mjs';
 export default defineConfig({
 	site: 'https://docs.sunriselayer.io',
 	trailingSlash: 'never',
+	// @astrojs/markdown-remark must be installed (see package.json) so Astro 7 renders
+	// .md pages through the remark/rehype pipeline instead of the default Sätteri
+	// processor, which ignores remarkPlugins/rehypePlugins and would leave KaTeX raw.
 	markdown: {
 		remarkPlugins: [remarkMath],
 		rehypePlugins: [rehypeKatex],
