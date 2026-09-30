@@ -53,6 +53,10 @@ export default defineConfig({
 					href: 'https://twitter.com/SunriseLayer',
 				},
 			],
+			banner: {
+				content:
+					'Cosmos Sunrise shuts down on 5 October 2026 at 12:00 UTC (v2.0.0, block 6,504,000). Holdings move to Sunrise Edge. You do not need to move funds before shutdown. <a href="https://sunriselayer.io/">Details</a>',
+			},
 			customCss: ['./src/styles/custom.css'],
 			components: {
 				Head: './src/components/Head.astro',
