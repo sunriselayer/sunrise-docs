@@ -3,6 +3,12 @@ title: Sunrise Mainnet
 description: The main network of Sunrise. Use tokens with real value.
 ---
 
+:::danger
+Cosmos Sunrise mainnet shuts down on **5 October 2026 at 12:00 UTC**, at the v2.0.0 upgrade (block **6,504,000**). Holdings are carried over to Sunrise Edge. You do not need to move funds before shutdown.
+
+Details: [Sunrise Edge](https://sunriselayer.io/)
+:::
+
 The main network of Sunrise. Use tokens with real value.
 
 ## Mainnet Details

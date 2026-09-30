@@ -3,6 +3,12 @@ title: 👋 Sunrise
 description: The base layer for Interliquid Networks.
 ---
 
+:::danger
+Cosmos Sunrise shuts down on **5 October 2026 at 12:00 UTC**, at the v2.0.0 upgrade (block **6,504,000**). The network, app, and explorer stop. Holdings on this network are carried over to Sunrise Edge. You do not need to move funds or use the current app before shutdown.
+
+Details are on [Sunrise Edge](https://sunriselayer.io/). Until shutdown, the previous site remains at [cosmos.sunriselayer.io](https://cosmos.sunriselayer.io/).
+:::
+
 **The base layer for Interliquid Networks.**
 
 Sunrise is a next-generation Layer 1 blockchain that combines high-throughput data availability with a native liquidity hub. It integrates **Proof of Liquidity (PoL)** and **fee abstraction**, delivering immediate liquidity and flexible gas‑payment options to rollups and application chains. Validators secure the network by staking RISE and/or vRISE. Liquidity providers supply liquidity to pools and earn vRISE and trading fees. Sunrise interoperates with [Rollup and L2 Blockchain](/build/l2-blockchains), allowing developers to adopt Sunrise with minimal integration effort.
